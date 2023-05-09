@@ -1,0 +1,149 @@
+body{
+    background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,1,1));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  /* background-size: cover; */
+}
+
+/* .navbar{
+    background-color: blue;
+  
+   
+} */
+.item1{
+    grid-column: span 1 ;
+    background-color: red;
+      font-family: serif; 
+}
+.item2{
+    /* margin-left: 500px; */
+    /* margin-right: 100px */
+    grid-column: span ;
+    background-color: gray;
+}
+.item3{
+    grid-column: span 1;
+ 
+    background-color: green;
+}
+.item4{
+    /* grid-column: span 1 ; */
+    background-color: blue;
+    float: right;
+}
+#loginPage {
+    display: block;
+  margin-left: 10px;
+  height: 350px;
+  width: 1350px;
+}
+
+  /*Action movis*/
+
+  .container {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+  /*change the position of the dev in body*/
+    top: 400px;
+    left: calc(24% - 300px);
+    display: flex;
+    /* background-color: aliceblue; */
+  
+  }
+  
+  .card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+/*   
+    background-color: #C9B8FF; */
+  
+    border-radius: 10px;
+  
+    box-shadow: -1rem 0 3rem #0003;
+  
+  /*   margin-left: -50px; */
+  
+    transition: 0.4s ease-out;
+  
+    position: relative;
+  
+    left: 0px;
+  
+  }
+  
+  .card:not(:first-child) {
+  /*the space between cards*/
+      margin-left: -0px;
+  
+  }
+  
+  .card:hover {
+  
+    transform: translateY(-20px);
+  
+    transition: 0.4s ease-out;
+  
+  }
+  
+  .card:hover ~ .card {
+  
+    position: relative;
+  
+    left: 50px;
+  
+    transition: 0.4s ease-out;
+  
+  }
+  
+  .title {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 0.5;
+  }
+  p{
+    color: wheat;
+    font-family: sans-serif;
+  }
+  /*Romentic movis*/
+  #romantic{
+     top: 850px;
+  }
+  /* t1{
+     aspect-ratio: 1/2;
+  } */
+  footer{
+   
+  background-color: black;
+ align-content: center;
+ margin-bottom: 0px;
+ height: 250px;
+ }
+ footer img{
+ background-color: white;
+  height: 50px;
+  aspect-ratio: 1.3;
+  border-radius: 5px;
+  
+
+ }
+ #vv{
+ border: 2px solid white;
+ width:900px;
+  height:540px;
+  margin-top: 60%;
+  margin-left: 15%;
+  border-radius: 10px;
+ }
+ /* #v1{
+  border: 2px solid white;
+  width:900px;
+   height:540px;
+   margin-top: 60%;
+   margin-left: 15%;
+ } */
